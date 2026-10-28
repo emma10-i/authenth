@@ -34,7 +34,12 @@ with st.container():
     image_column,text_column=st.columns((1,2))
 
     with image_column:
-        st.image(url=https://www.youtube.com/watch?v=Ck7wB7pdebQ)
+       video_url = "https://www.youtube.com/watch?v=XVRWjCNoH5A"
+st.video(
+    video_url, 
+    format="video/mp4", 
+    start_time=0
+)
 
 
 
