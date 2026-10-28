@@ -34,7 +34,7 @@ with st.container():
     image_column,text_column=st.columns((1,2))
 
     with image_column:
-        pass
+        st.image(url=https://www.youtube.com/watch?v=Ck7wB7pdebQ)
 
 
 
